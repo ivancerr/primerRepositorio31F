@@ -71,6 +71,7 @@ public class Curso {
 	
 	/**
 	 * @return nos devuelve el numero de alumnos que hay en la lista
+	 * @author Ivan
 	 */
 	public Integer numeroAlumnos() {return listaAlumnos.size();}
 	
