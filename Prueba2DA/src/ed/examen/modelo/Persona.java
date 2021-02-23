@@ -11,6 +11,12 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	
+	/**
+	 * @param dni Este es el dni de la persona
+	 * @param nombre Este nos dira el nombre de la persona
+	 * @param apellido1 Este nos dira el apellido de la persona
+	 */
 	public Persona(String dni, String nombre, String apellido1) {
 		this.dni = dni;
 		this.nombre = nombre;
@@ -20,6 +26,10 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	
+	/**
+	 * @return Nos devuelve el dni de la persona
+	 */
 	public String getDni() {
 		return dni;
 	}
@@ -28,6 +38,11 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	
+	/**
+	 * @param dni este es el dni de la persona
+	 * @throws Exception y aqui nos devolvera una excepcion
+	 */
 	public void setDni(String dni) throws Exception {
 		//comprobacion de si el ultimo caracter es una letra
 		if(Character.isLetter(dni.charAt(dni.length()-1))) {
@@ -40,6 +55,10 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	
+	/**
+	 * @return nos devuelve el nombre de la persona
+	 */
 	public String getNombre() {
 		return nombre;
 	}
@@ -47,6 +66,10 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	
+	/**
+	 * @param nombre este es el nombre de la persona
+	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
@@ -54,6 +77,9 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	/**
+	 * @return nos devuelve el apellido de la persona
+	 */
 	public String getApellido1() {
 		return apellido1;
 	}
@@ -61,6 +87,9 @@ public class Persona{
 	/*
 	 * Documentar y crear test unitario
 	 * */
+	/**
+	 * @param apellido1 este es el apellido de la persona
+	 */
 	public void setApellido1(String apellido1) {
 		this.apellido1 = apellido1;
 	}
