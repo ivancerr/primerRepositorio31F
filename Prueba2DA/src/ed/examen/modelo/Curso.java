@@ -59,16 +59,19 @@ public class Curso {
 		return encontrado;
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	
+	/**
+	 *  @author Ivan Este nos dira la lista de los alumnos
+	 * @return no devuelve nada
+	 */
 	public Curso() {
 		listaAlumnos= new ArrayList<Persona>();
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	
+	/**
+	 * @return nos devuelve el numero de alumnos que hay en la lista
+	 */
 	public Integer numeroAlumnos() {return listaAlumnos.size();}
 	
 	
