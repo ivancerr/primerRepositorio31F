@@ -42,9 +42,11 @@ public class Curso {
 		listaAlumnos.add(p);
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	
+	/**
+	 * @param Aqui seleccionaremos el dni de la persona indicada
+	 * @return y nos devolvera si se ha encontrado o no el dni
+	 */
 	public Boolean estaRegistrado(String dni) {
 		int i =0;
 		Boolean encontrado=false;
