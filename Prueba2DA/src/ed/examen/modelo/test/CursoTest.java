@@ -62,24 +62,28 @@ class CursoTest {
 
 	}
 
+	Persona p = new Persona();
 	@Test
 	void testAniadirAlumno() {
-		fail("Not yet implemented");
+		
+		c.aniadirAlumno(p);
+		assertTrue(c.estaRegistrado(p.getDni()));
 	}
 
 	@Test
 	void testEstaRegistrado() {
-		fail("Not yet implemented");
+		c.aniadirAlumno(p);
+		assertTrue(c.estaRegistrado(p.getDni()));
 	}
 
 	@Test
 	void testCurso() {
-		fail("Not yet implemented");
+		assertTrue(c.numeroAlumnos() == 0);
 	}
 
 	@Test
 	void testNumeroAlumnos() {
-		fail("Not yet implemented");
+		assertTrue(c.numeroAlumnos() == 1);
 	}
 
 }

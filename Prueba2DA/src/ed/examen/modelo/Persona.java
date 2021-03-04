@@ -1,5 +1,14 @@
 package ed.examen.modelo;
 
+/**
+ * Esta sera nuestra clase persona
+ * @author Ivan Cerrajeria
+ * @author daw106
+ * @since 1.0
+ * @version 2.0.2
+ * 
+ *
+ */
 public class Persona{
 	
 	private String dni;
@@ -13,6 +22,7 @@ public class Persona{
 	 * */
 	
 	/**
+	 * Este seria el constructor de la clase persona con sus respectivos parametros
 	 * @param dni Este es el dni de la persona
 	 * @param nombre Este nos dira el nombre de la persona
 	 * @param apellido1 Este nos dira el apellido de la persona
@@ -28,6 +38,7 @@ public class Persona{
 	 * */
 	
 	/**
+	 * Este metodo lo que hara sera sacarnos el dni
 	 * @return Nos devuelve el dni de la persona
 	 */
 	public String getDni() {
@@ -40,6 +51,7 @@ public class Persona{
 	 * */
 	
 	/**
+	 * Aqui nos escribira el dni y sino lanzara la excepcion
 	 * @param dni este es el dni de la persona
 	 * @throws Exception y aqui nos devolvera una excepcion
 	 */
@@ -57,6 +69,7 @@ public class Persona{
 	 * */
 	
 	/**
+	 * Este nos sacara el nombre de la persona
 	 * @return nos devuelve el nombre de la persona
 	 */
 	public String getNombre() {
@@ -68,6 +81,7 @@ public class Persona{
 	 * */
 	
 	/**
+	 * Aqui nos escrbira le nombre de la persona indicada.
 	 * @param nombre este es el nombre de la persona
 	 */
 	public void setNombre(String nombre) {
@@ -78,6 +92,7 @@ public class Persona{
 	 * Documentar y crear test unitario
 	 * */
 	/**
+	 * Este nos sacara el apellido de la persona
 	 * @return nos devuelve el apellido de la persona
 	 */
 	public String getApellido1() {
@@ -88,6 +103,7 @@ public class Persona{
 	 * Documentar y crear test unitario
 	 * */
 	/**
+	 * Aqui lo que nos muestra es el apellido de la persona
 	 * @param apellido1 este es el apellido de la persona
 	 */
 	public void setApellido1(String apellido1) {

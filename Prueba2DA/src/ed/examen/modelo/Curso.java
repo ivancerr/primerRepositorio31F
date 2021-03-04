@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Esta sera nuestra clase curso
  * @author Ivan Cerrajeria
  * @author daw106
  * @since 1.0
- * @version
+ * @version 2.0.1
  * 
  *
  */
@@ -15,9 +16,7 @@ public class Curso {
 	
 	private List<Persona> listaAlumnos;
 
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	
 	/**
 	 * Metodo  para eliminar un alumno introduciendo el dni
 	 * @param dni numero identificacion de la persona que queremos eliminar
@@ -35,6 +34,7 @@ public class Curso {
 	 * Documentar y crear test unitario
 	 * */
 	/**
+	 * Con este metodo lo que haremos sera añadir un alumno
 	 * Metodo para añadir persona al curso
 	 * @param p persona que queremos añadir al curso
 	 */
@@ -44,6 +44,7 @@ public class Curso {
 	
 	
 	/**
+	 * Basicamente lo que hara en este metodo sera ver si esta registrado el dni
 	 * @param Aqui seleccionaremos el dni de la persona indicada
 	 * @return y nos devolvera si se ha encontrado o no el dni
 	 */
@@ -61,6 +62,7 @@ public class Curso {
 	
 	
 	/**
+	 * Esto indica el curso en el que estan los alumnos
 	 *  @author Ivan Este nos dira la lista de los alumnos
 	 * @return no devuelve nada
 	 */
@@ -70,6 +72,7 @@ public class Curso {
 	
 	
 	/**
+	 * Estos son el numero de alumnos que tenemos dentro del curso
 	 * @return nos devuelve el numero de alumnos que hay en la lista
 	 * @author Ivan
 	 */
